@@ -1,6 +1,6 @@
 .banner {
 	padding: 30px 15px;
-	min-height: 599px;
+	height: 80vh;
 	color: #102a53;
 	text-align: center;
 	background-image: url("../img/banner.jpg");
@@ -32,30 +32,4 @@
 	margin: 0;
 	font-size: 30px;
 	font-weight: 400;
-}
-
-.banner-social {
-	display: flex;
-	align-self: flex-end;
-	margin-top: 300px;
-}
-
-.banner-social__link {
-	display: block;
-	width: 30px;
-	height: 29px;
-	background-position: center;
-	background-size: cover;
-}
-
-.banner-social__link_ok {
-	background-image: url("../img/ok.png");
-}
-
-.banner-social__link_inst {
-	background-image: url("../img/inst.png");
-}
-
-.banner-social__link_vk {
-	background-image: url("../img/vk.png");
 }

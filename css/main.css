@@ -115,7 +115,7 @@ main {
 
 .header-nav__link {
   display: block;
-  padding: 19px 5px;
+  padding: 7px 5px;
   color: #c2c2c2;
   font-size: 20px;
   font-weight: 400; }
@@ -133,7 +133,7 @@ main {
 
 .banner {
   padding: 30px 15px;
-  min-height: 599px;
+  height: 80vh;
   color: #102a53;
   text-align: center;
   background-image: url("../img/banner.jpg");
@@ -171,32 +171,6 @@ main {
   margin: 0;
   font-size: 30px;
   font-weight: 400; }
-
-.banner-social {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end;
-  margin-top: 300px; }
-
-.banner-social__link {
-  display: block;
-  width: 30px;
-  height: 29px;
-  background-position: center;
-  background-size: cover; }
-
-.banner-social__link_ok {
-  background-image: url("../img/ok.png"); }
-
-.banner-social__link_inst {
-  background-image: url("../img/inst.png"); }
-
-.banner-social__link_vk {
-  background-image: url("../img/vk.png"); }
 
 .service {
   color: #224376;
