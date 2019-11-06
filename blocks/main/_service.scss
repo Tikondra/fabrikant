@@ -1,0 +1,77 @@
+.service {
+	color: #224376;
+	padding-top: 20px;
+}
+
+.service__main-title {
+	text-shadow: 1px 1px 0 #d3d0d0;	
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.service__list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	list-style: none;
+	box-shadow: 0 16px 29px rgba(100, 100, 100, 0.27);
+}
+
+.service__item {
+	width: 32.98%;
+	margin: 2px;
+	padding: 25px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 95% 95%;
+}
+
+.service__item1 {
+	background-image: url("../img/service1.png");
+}
+
+.service__item2 {
+	background-image: url("../img/service2.png");
+}
+
+.service__item3 {
+	background-image: url("../img/service3.png");
+}
+
+.service__item4 {
+	background-image: url("../img/service4.png");
+}
+
+.service__item5 {
+	background-image: url("../img/service5.png");
+}
+
+.service__item6 {
+	background-image: url("../img/service6.png");
+}
+
+.service__item7 {
+	background-image: url("../img/service7.png");
+}
+
+.service__item8 {
+	background-image: url("../img/service8.png");
+}
+
+.service__item9 {
+	background-image: url("../img/service9.png");
+}
+
+.service__title {
+	font-size: 18px;
+	font-weight: 700;	
+}
+
+.service__text {
+	max-width: 305px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+}
