@@ -3,10 +3,11 @@
 }
 
 .header-nav__list {
+	position: relative;
 	display: none;
 	justify-content: space-between;
 	width: 100%;
-	max-width: 720px;
+	// max-width: 720px;
 	list-style: none;
 }
 

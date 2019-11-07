@@ -1,0 +1,38 @@
+.submenu {
+	position: absolute;
+	left: 0;
+	display: none;
+	justify-content: space-between;
+	padding: 20px;
+	width: 100%;
+	background-color: #fff;
+	list-style: none;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header-nav__link:hover ~ .submenu,
+.submenu:hover {
+	display: flex;
+}
+
+.submenu__title {
+	display: block;
+	margin-bottom: 15px;
+	color: #224376;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.submenu__list {
+	padding: 0;
+	list-style: none;
+}
+
+.submenu__link {
+	color: #224376;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
