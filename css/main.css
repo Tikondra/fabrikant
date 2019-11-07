@@ -75,10 +75,10 @@ main {
   background-position: 5px center; }
 
 .header-info__contact {
-  padding-left: 20px;
+  padding-left: 40px;
   padding-top: 10px;
   font-size: 14px;
-  border-left: 1px solid #e5e5e5; }
+  border-bottom: 1px solid #e5e5e5; }
 
 .header-nav {
   background-color: #0a3c8a; }
