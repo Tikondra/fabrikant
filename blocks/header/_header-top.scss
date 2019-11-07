@@ -3,23 +3,26 @@
 	flex-direction: column;
 }
 
+.logo {
+	text-align: center;
+}
+
 .header-info {
 	display: flex;
-	flex-direction: column;
-	
-	width: 100%;
+	flex-direction: column;	
+	max-width: 400px;
+	margin: auto;
 	color: #092a5e;	
 	font-weight: 400;
 }
 
 .header-info__adres {
-	padding-left: 40px;
-	padding-top: 10px;
+	padding: 10px 0 10px 30px;
 	font-size: 16px;
-	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 	background-image: url("../img/pin.svg");
 	background-repeat: no-repeat;
-	background-position: 10px center;
+	background-position: left center;
 }
 
 .header-info__tel {
@@ -30,7 +33,7 @@
 }
 
 .header-info__email {
-	padding-left: 30px;
+	padding-left: 35px;
 	background-image: url("../img/mail.svg");
 	background-repeat: no-repeat;
 	background-position: 5px center;
@@ -43,21 +46,21 @@
 	border-left: 1px solid #e5e5e5;
 }
 
-.header-info__contact p {
-	margin: 10px 0;
-}
+// .header-info__contact p {
+// 	margin: 10px 0;
+// }
 
-@media screen and (min-width: 768px) {
-	.header-top {
-		flex-direction: row;
-	}
+// @media screen and (min-width: 768px) {
+// 	.header-top {
+// 		flex-direction: row;
+// 	}
 
-	.header-top__logo {
-		margin-right: 15px;
-	}
+// 	.header-top__logo {
+// 		margin-right: 15px;
+// 	}
 
-	.header-info {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-}
+// 	.header-info {
+// 		flex-direction: row;
+// 		justify-content: space-between;
+// 	}
+// }
