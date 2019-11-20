@@ -33,3 +33,9 @@
 	font-size: 30px;
 	font-weight: 400;
 }
+
+@media screen and (max-width: 600px) {
+  .banner__title {		
+		font-size: 29px;		
+	}
+}

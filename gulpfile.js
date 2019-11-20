@@ -64,7 +64,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
         'libs/js/jquery.js',
-        'libs/js/owl.carousel.js'
+        'libs/js/jquery-ui.js'
         ])
         .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
@@ -86,8 +86,7 @@ gulp.task('code', function() {
 gulp.task('css-libs', function() {
     return gulp.src([
         'libs/css/normalize.css',
-        'libs/css/owl.carousel.css',
-        'libs/css/owl.theme.css'
+        'libs/css/jquery-ui.css'
         ]) // Выбираем файл для минификации
         .pipe(concat('libs.min.css'))        
         .pipe(cssnano()) // Сжимаем        

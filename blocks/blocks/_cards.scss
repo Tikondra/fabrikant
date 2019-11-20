@@ -1,0 +1,62 @@
+.cards {
+	margin: 0;
+	padding: 0;
+	max-width: 770px;
+	list-style: none;
+}
+
+.cards__item {
+	display: flex;
+	margin: 25px 0;
+	background-color: #fff;
+	border: 1px solid #a8c2cc;
+}
+
+.cards__img {
+	margin-right: 20px;
+}
+
+.cards__content {
+	width: 100%;
+	padding-right: 15px;
+}
+
+.cards__title {	
+	color: #224376;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.cards__stat {
+	color: #2f3135;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.cards__value {
+	padding-left: 10px;
+	color: #2f3135;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.cards__price {
+	margin: 0;
+	margin-top: -10px;
+	color: #363535;
+	font-family: "Open Sans";
+	font-size: 24px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.cards__price-span {
+	display: block;
+	color: #5b7194;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 700;
+}

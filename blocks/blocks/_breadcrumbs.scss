@@ -1,0 +1,24 @@
+.breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;  
+  padding: 0;  
+  list-style: none;
+}
+
+.breadcrumbs__link {
+	color: #5e7ba9;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+  text-decoration: none;  
+}
+
+.breadcrumbs__item::after {
+  content: '/';
+  color: #5e7ba9;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+  padding: 0 5px;
+}

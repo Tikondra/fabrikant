@@ -5,17 +5,20 @@
 
 .footer-top {
 	display: flex;
+	flex-wrap: wrap;
 	padding-bottom: 25px;
 	border-bottom: 1px solid rgba(243, 243, 243, .4);;
 }
 
 .map {
 	margin: 0 25px;
+	flex-grow: 2;
 }
 
 .footer-info {
 	display: flex;
 	flex-direction: column;
+	max-width: 230px;
 	color: #fff;
 }
 

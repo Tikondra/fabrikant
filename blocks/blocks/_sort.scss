@@ -1,0 +1,24 @@
+.sort {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 770px;
+	padding: 8.5px;
+	border: 1px solid #a8c2cc;
+	background-color: #ffffff;
+}
+
+.sort__title {
+	margin: 0;
+	color: #5a5454;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.sort__select {
+	padding: 6px;
+	border: none;
+	box-shadow: inset 0 0 0 rgba(98, 102, 106, 0.28);
+	background-color: #e8f0f3;
+}

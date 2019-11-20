@@ -1,5 +1,6 @@
 .hot {
 	color: #224376;
+	padding: 10px;
 	padding-bottom: 100px;
 }
 
@@ -15,17 +16,75 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
+	
 	list-style: none;
 	box-shadow: 0 16px 29px rgba(100, 100, 100, 0.27);
+
+	&--other {
+		margin-left: auto;
+		max-width: 865px;
+	}
+}
+
+.hot__price-box {
+	align-self: flex-end;
+    margin-top: auto;
+    text-align: right;
+}
+
+.hot__old-price {
+	display: none;
+	align-self: flex-end;
+	margin: 0;
+	color: #9E9E9E;
+	font-size: 18px;
+    text-decoration: line-through;    
+}
+
+.hot__profit {
+	display: none;
+	align-self: flex-end;
+	padding: 7px;
+	margin: 0;
+	border-radius: 5px;
+	font-size: 12px;
+	background-color: #FFEB3B;
 }
 
 .hot__item {
+	position: relative;
 	display: flex;
 	flex-direction: column;
-	width: 24.65%;
+	flex-grow: 1;
+	flex-basis: 295px;
+	max-width: 291px;
+	min-height: 490px;
 	margin: 2px;
 	padding: 25px;
 	background-color: #fff;
+
+	&:hover {
+		background-color: #607d8b1f;
+	}
+
+	&--sale::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 110px;
+		height: 105px;
+		background-image: url("../img/sale.png");
+		background-repeat: no-repeat;
+	}
+
+	&--sale .hot__old-price {
+		display: block;
+	}
+
+	&--sale .hot__profit {
+		display: block;
+	}
 }
 
 .hot__title {
@@ -34,7 +93,7 @@
 }
 
 .hot__text {
-	margin: 0;
+	margin: 5px 0;
 	color: #363535;	
 	font-size: 14px;
 	font-weight: 400;	
@@ -42,5 +101,7 @@
 
 .hot__price {
 	align-self: flex-end;
+	margin: 5px 0;
 	color: #363535;
+	font-size: 24px;
 }
