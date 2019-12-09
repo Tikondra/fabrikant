@@ -1120,6 +1120,11 @@ a {
   background-color: #d40e14; }
 
 .about {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 80px;
   color: #224376; }
 
 .about__subtitle {
@@ -1135,7 +1140,7 @@ a {
   line-height: 34px; }
 
 .about__item {
-  margin: 10px;
+  margin: 20px 10px;
   font-size: 18px;
   font-weight: 600; }
 
@@ -1149,6 +1154,33 @@ a {
   font-size: 24px;
   font-style: italic;
   line-height: 40px; }
+
+.about__img-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 615px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-left: -230px; }
+
+.about__img-item {
+  margin: 10px 0; }
+  .about__img-item--2 {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
 
 .principles {
   padding-top: 90px;
