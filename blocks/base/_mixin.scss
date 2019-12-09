@@ -1,0 +1,10 @@
+@mixin gatter {
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+@mixin list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

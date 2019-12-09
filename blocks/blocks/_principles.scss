@@ -1,0 +1,57 @@
+.principles {
+  @include gatter;
+  color: #224376;
+  background-color: #e1e1e1;
+  background-image: url("../img/back-princip.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.principles__title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.principles__list {
+  max-width: 800px;
+}
+
+.principles__item {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.principles__quote {
+  position: relative;
+  padding: 25px 60px 25px 70px;
+  max-width: 970px;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 40px;
+  background-color: #ffffff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 17px;
+    height: 11px;
+    background-image: url("../img/quote-top.png");
+    background-size: cover;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 17px;
+    height: 11px;
+    background-image: url("../img/quote-bottom.png");
+  }
+}
