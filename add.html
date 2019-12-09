@@ -177,84 +177,82 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="page page-add container">
-		<h2 class="page-add__title">офисы и помещения</h2>
+	<main class="page page-add">
+    <div class="container">
+  		<ul class="page__breadcrumbs breadcrumbs">
+  			<li class="breadcrumbs__item">
+  				<a class="breadcrumbs__link" href="index.html">
+  					Главная
+  				</a>
+  			</li>
 
-		<hr>
+  			<li class="breadcrumbs__item_end">
+  				<a class="breadcrumbs__link">
+  					Бесплатное размещение объявлений
+  				</a>
+  			</li>
+  		</ul>
 
-		<ul class="page__breadcrumbs breadcrumbs">
-			<li class="breadcrumbs__item">
-				<a class="breadcrumbs__link" href="index.html">
-					Главная
-				</a>
-			</li>
+      <hr>
 
-			<li class="breadcrumbs__item">
-				<a class="breadcrumbs__link" href="#">
-					Аренда
-				</a>
-			</li>
+      <h2 class="page-add__title">Подать объявление</h2>
+      <p class="page-add__description">
+        На странице нашего сайта вы можете бесплатно разместить объявление по продаже, покупке и аренде жилой, коммерческой недвижимости, а&nbsp;также земельного участка в г. Астрахань
+      </p>
 
-			<li class="breadcrumbs__item_end">
-				<a class="breadcrumbs__link">
-					Офисы и помещения
-				</a>
-			</li>
-		</ul>
+  		<section class="add">
+  			<form class="add__form form-add" action="https://echo.htmlacademy.ru" method="post">
+  				<p class="form-add__text">Оставьте информацию об объекте и мы её опубликуем бесплатно</p>
 
-		<section class="add">
-			<form class="add__form form-add" action="https://echo.htmlacademy.ru" method="post">
-				<p class="form-add__text">Оставьте информацию об объекте и мы её опубликуем бесплатно</p>
+  				<ul class="form-add__inputs-list add-inputs">
+  					<li class="add-inputs__item">
+  						<label class="add-inputs__label" for="name">Ваше имя</label>
+  						<input class="add-inputs__input" type="text" name="name" id="name">
+  					</li>
+  					<li class="add-inputs__item">
+  						<label class="add-inputs__label" for="number">Цена</label>
+  						<input class="add-inputs__input" type="number" name="number" id="number">
+  					</li>
+  					<li class="add-inputs__item">
+  						<label class="add-inputs__label" for="tel">Телефон</label>
+  						<input class="add-inputs__input" type="tel" name="tel" id="tel">
+  					</li>
+  					<li class="add-inputs__item">
+  						<p class="add-inputs__label add-inputs__label--file">Фотография</p>
+  						<input class="file" type="file" name="photo" id="file"  onchange="getFileName ();">
+  						<label class="label-file" for="file">Загрузить изображение</label>
+  						<div class="add-inputs__file-name" id="file-name"></div>
+  					</li>
 
-				<ul class="form-add__inputs-list add-inputs">
-					<li class="add-inputs__item">
-						<label class="add-inputs__label" for="name">Ваше имя</label>
-						<input class="add-inputs__input" type="text" name="name" id="name">
-					</li>
-					<li class="add-inputs__item">
-						<label class="add-inputs__label" for="number">Цена</label>
-						<input class="add-inputs__input" type="number" name="number" id="number">
-					</li>
-					<li class="add-inputs__item">
-						<label class="add-inputs__label" for="tel">Телефон</label>
-						<input class="add-inputs__input" type="tel" name="tel" id="tel">
-					</li>
-					<li class="add-inputs__item">
-						<p class="add-inputs__label add-inputs__label--file">Фотография</p>
-						<input class="file" type="file" name="photo" id="file"  onchange="getFileName ();">
-						<label class="label-file" for="file">Загрузить изображение</label>
-						<div class="add-inputs__file-name" id="file-name"></div>
-					</li>
-
-					<div class="add-inputs__item">
-						<li class="add-inputs__item">
-							<label class="add-inputs__label" for="email">E-mail</label>
-							<input class="add-inputs__input" type="E-mail" name="email" id="email">
-						</li>
-						<li class="add-inputs__item">
-							<label class="add-inputs__label" for="type">Тип невижимости</label>
-							<select class="add-inputs__input">
-								<option>Офис</option>
-								<option>Квартира</option>
-								<option></option>
-							</select>
-						</li>
-					</div>
+  					<div class="add-inputs__item">
+  						<li class="add-inputs__item">
+  							<label class="add-inputs__label" for="email">E-mail</label>
+  							<input class="add-inputs__input" type="E-mail" name="email" id="email">
+  						</li>
+  						<li class="add-inputs__item">
+  							<label class="add-inputs__label" for="type">Тип невижимости</label>
+  							<select class="add-inputs__input">
+  								<option>Офис</option>
+  								<option>Квартира</option>
+  								<option></option>
+  							</select>
+  						</li>
+  					</div>
 
 
 
-					<li class="add-inputs__item">
-						<label class="add-inputs__label" for="comment">Комментарий:</label>
-						<textarea class="add-inputs__input add-inputs__input--textarea" name="comment">
+  					<li class="add-inputs__item">
+  						<label class="add-inputs__label" for="comment">Комментарий:</label>
+  						<textarea class="add-inputs__input add-inputs__input--textarea" name="comment">
 
-						</textarea>
-					</li>
-				</ul>
-				<hr class="add__line">
-				<button class="form-add__btn" type="submit">Отправить</button>
-			</form>
-		</section>
-
+  						</textarea>
+  					</li>
+  				</ul>
+  				<hr class="add__line">
+  				<button class="form-add__btn" type="submit">Отправить</button>
+  			</form>
+  		</section>
+    </div>
 	</main>
 	<footer class="page-footer">
 		<div class="footer-top container">

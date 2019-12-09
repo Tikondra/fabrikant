@@ -37,6 +37,18 @@
     margin-bottom: 0;
     justify-content: center;
   }
+
+  &:hover {
+    background-color: #0a3c8a;
+
+    .service__link {
+      color: #fff;
+    }
+
+    .service__svg {
+      fill: #fff;
+    }
+  }
 }
 
 .service__link {

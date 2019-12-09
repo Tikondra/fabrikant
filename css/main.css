@@ -299,6 +299,12 @@ a {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  .service__item:hover {
+    background-color: #0a3c8a; }
+    .service__item:hover .service__link {
+      color: #fff; }
+    .service__item:hover .service__svg {
+      fill: #fff; }
 
 .service__link {
   display: -webkit-box;
@@ -757,11 +763,28 @@ a {
     color: #0a3c8a;
     background-color: #ffffff; }
 
+.page-add {
+  padding: 1px 0;
+  background-image: url("../img/back-add.png");
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
 .page-add__title {
+  margin-bottom: 10px;
   color: #224376;
   font-size: 36px;
   font-weight: 800;
   text-transform: uppercase;
+  text-align: center; }
+
+.page-add__description {
+  max-width: 665px;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #224376;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
   text-align: center; }
 
 .add {
