@@ -1,0 +1,28 @@
+.our-partners {
+  padding: 50px 0;
+  background-color: #c1c1c1;
+  background-image: url("../img/back-partners.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.our-partners__title {
+  color: #253364;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.our-partners__list {
+  @include list;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.our-partners__item {
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: #ffffff;
+}

@@ -1422,3 +1422,36 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; }
+
+.our-partners {
+  padding: 50px 0;
+  background-color: #c1c1c1;
+  background-image: url("../img/back-partners.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.our-partners__title {
+  color: #253364;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center; }
+
+.our-partners__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.our-partners__item {
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: #ffffff; }
