@@ -16,12 +16,13 @@
 }
 
 .banner__text-box {
-	max-width: 810px;
+	max-width: 1080px;
 	margin: auto;
 }
 
 .banner__title {
 	margin: 5px;
+  margin-top: 50px;
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 60px;
@@ -35,7 +36,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .banner__title {		
-		font-size: 29px;		
+  .banner__title {
+		font-size: 29px;
 	}
 }

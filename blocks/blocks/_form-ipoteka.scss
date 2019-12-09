@@ -1,0 +1,50 @@
+.form-ipoteka {
+  padding: 25px;
+  max-width: 600px;
+  background-color: #ffffff;
+}
+
+.form-ipoteka__title {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-ipoteka__inputs-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.form-ipoteka__inputs-item {
+  margin: 10px;
+  max-width: 255px;
+  flex-grow: 1;
+}
+
+.form-ipoteka__label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-ipoteka__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c2c2c2;
+  background-color: #f8f8f8;
+}
+
+.form-ipoteka__btn {
+  flex-grow: 1;
+  padding: 13.5px;
+  margin: 10px;
+  max-width: 255px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background-color: #d40e14;
+}

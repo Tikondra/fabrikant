@@ -1,0 +1,30 @@
+.help-ipoteka {
+  color: #224376;
+  background-image: url("../img/back-ipoteka-form.png");
+  background-repeat: no-repeat;
+}
+
+.help-ipoteka__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 35px 0;
+}
+
+.help-ipoteka__text-box {
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+.help-ipoteka__title {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.help-ipoteka__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
