@@ -884,7 +884,8 @@ a {
 .help-ipoteka {
   color: #224376;
   background-image: url("../img/back-ipoteka-form.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .help-ipoteka__content {
   display: -webkit-box;
@@ -1311,3 +1312,113 @@ a {
   font-weight: 600;
   line-height: 24px;
   text-align: center; }
+
+.assessment {
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 50px;
+  color: #224376; }
+
+.assessment__page-title {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.assessment__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.assessment__title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 34px;
+  text-transform: uppercase; }
+
+.assessment__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.assessment__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-basis: 31%;
+      -ms-flex-preferred-size: 31%;
+          flex-basis: 31%;
+  margin: 10px;
+  padding: 25px 25px 0;
+  -webkit-box-shadow: 0 0 10px rgba(100, 100, 100, 0.3);
+          box-shadow: 0 0 10px rgba(100, 100, 100, 0.3);
+  background-color: #ffffff; }
+
+.assessment__item-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36.01px; }
+
+.assessment-form {
+  color: #224376;
+  background-color: #e1e1e1;
+  background-image: url("../img/back-assessment-form.png");
+  background-repeat: no-repeat;
+  background-position: bottom right; }
+
+.assessment-form__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 35px 0; }
+
+.assessment-form__text-box {
+  max-width: 500px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.assessment-form__title {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 34px;
+  text-transform: uppercase; }
+
+.assessment-form__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; }

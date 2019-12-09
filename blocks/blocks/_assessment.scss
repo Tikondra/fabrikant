@@ -1,0 +1,49 @@
+.assessment {
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 50px;
+  color: #224376;
+}
+
+.assessment__page-title {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.assessment__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.assessment__title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.assessment__list {
+  @include list;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.assessment__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 31%;
+  margin: 10px;
+  padding: 25px 25px 0;
+  box-shadow: 0 0 10px rgba(100, 100, 100, 0.3);
+  background-color: #ffffff;
+}
+
+.assessment__item-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36.01px;
+}

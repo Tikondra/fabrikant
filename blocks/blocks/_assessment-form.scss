@@ -1,30 +1,33 @@
-.help-ipoteka {
+.assessment-form {
   color: #224376;
-  background-image: url("../img/back-ipoteka-form.png");
+  background-color: #e1e1e1;
+  background-image: url("../img/back-assessment-form.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom right;
 }
 
-.help-ipoteka__content {
+.assessment-form__content {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 35px 0;
 }
 
-.help-ipoteka__text-box {
+.assessment-form__text-box {
   max-width: 500px;
   margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
 
-.help-ipoteka__title {
+.assessment-form__title {
   font-size: 24px;
   font-weight: 900;
   line-height: 34px;
   text-transform: uppercase;
 }
 
-.help-ipoteka__text {
+.assessment-form__text {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
