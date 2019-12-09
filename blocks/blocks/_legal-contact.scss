@@ -1,0 +1,42 @@
+.legal-contact {
+  color: #224376;
+  background-image: url("../img/back-legal.png");
+  background-repeat: no-repeat;
+}
+
+.legal-contact__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 35px 0;
+}
+
+.legal-contact__text-box {
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+.legal-contact__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.legal-contact__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.legal-contact__label-tel {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.legal-contact__tel-link {
+  color: #224376;
+}

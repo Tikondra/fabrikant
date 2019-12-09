@@ -934,6 +934,128 @@ a {
   background-color: #ffffff; }
 
 .form-ipoteka__title {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center; }
+
+.form-ipoteka__inputs-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.form-ipoteka__inputs-item {
+  margin: 10px;
+  max-width: 255px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.form-ipoteka__label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400; }
+
+.form-ipoteka__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c2c2c2;
+  background-color: #f8f8f8; }
+
+.form-ipoteka__btn {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 13.5px;
+  margin: 10px;
+  max-width: 255px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background-color: #d40e14; }
+
+.legalservice {
+  max-width: 830px;
+  color: #224376; }
+
+.legalservice-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.legalservice__list-title {
+  max-width: 650px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 34px;
+  text-transform: uppercase; }
+
+.legalservice__item {
+  margin: 10px 0; }
+
+.legal-contact {
+  color: #224376;
+  background-image: url("../img/back-legal.png");
+  background-repeat: no-repeat; }
+
+.legal-contact__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 35px 0; }
+
+.legal-contact__text-box {
+  max-width: 500px;
+  margin-right: 20px; }
+
+.legal-contact__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 34px;
+  text-transform: uppercase; }
+
+.legal-contact__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.legal-contact__label-tel {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px; }
+
+.legal-contact__tel-link {
+  color: #224376; }
+
+.form-ipoteka {
+  padding: 25px;
+  max-width: 600px;
+  background-color: #ffffff; }
+
+.form-ipoteka__title {
   font-size: 24px;
   font-weight: 800;
   text-transform: uppercase;
