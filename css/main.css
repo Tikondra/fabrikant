@@ -1107,3 +1107,34 @@ a {
   font-weight: 500;
   border: none;
   background-color: #d40e14; }
+
+.about {
+  color: #224376; }
+
+.about__subtitle {
+  margin: 0;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 34px; }
+
+.about__list-title {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 34px; }
+
+.about__item {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 600; }
+
+.about__mission-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 34px;
+  text-transform: uppercase; }
+
+.about__mission-text {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 40px; }
