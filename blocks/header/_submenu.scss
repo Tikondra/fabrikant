@@ -41,3 +41,10 @@
 .submenu__link:hover {
 	text-decoration: underline;
 }
+
+.submenu__service {
+  flex-direction: column;
+  left: 300px;
+  width: 45%;
+  padding: 25px;
+}
